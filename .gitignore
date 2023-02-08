@@ -1,0 +1,19 @@
+# .gitignore
+
+# Virtual environment
+env/
+
+# Data
+data/
+
+# Python cache files
+__pycache__/
+
+# Automatically generated list of libraries
+src/libs/load_libs.py
+
+docs/
+
+src/
+tests/
+dependencies.txt
