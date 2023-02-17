@@ -1,0 +1,9 @@
+Algorithm,Number of Parameters,C,Gamma,Degree,var_smoothing,max_depth,min_samples_split,min_samples_leaf,n_estimators,n_neighbors,metric
+"SVM, Linear",1,0.01,-,-,-,-,-,-,-,-,-
+"SVM, RBF",2,0.01,0.1,-,-,-,-,-,-,-,-
+"SVM, Poly",-,-,-,-,-,-,-,-,-,-,-
+"SVM, Sigmoid",-,-,-,-,-,-,-,-,-,-,-
+Native Bayes,1,-,-,-,0.0023101297000831605,-,-,-,-,-,-
+Decision Tree,3,-,-,-,-,13,3,5,-,-,-
+Random Forest,4,-,-,-,-,8,-,-,500,-,-
+K-Nearest Neighbors,2,-,-,-,-,-,-,-,-,-,-

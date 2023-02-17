@@ -12,9 +12,4 @@ __pycache__/
 # Automatically generated list of libraries
 src/libs/load_libs.py
 
-docs/
-
-src/
-tests/
 dependencies.txt
-key*

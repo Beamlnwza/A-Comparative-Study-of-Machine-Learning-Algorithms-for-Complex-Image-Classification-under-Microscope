@@ -1,0 +1,14 @@
+Algorithm,Number of Parameters,Accuracy,Precision (Macro),Precision (Weighted),Recall (Macro),Recall (Weighted),F1 Score (Macro),F1 Score (Weighted),ROC AUC (Macro), ROC AUC (Weighted)
+"SVM, Linear",1,0.34,0.35,0.35,0.34,0.34,0.34,0.35,0.63,0.64
+"SVM, RBF",2,0.34,0.35,0.35,0.34,0.34,0.34,0.34,0.61,0.62
+"SVM, Polynomial ",3,0.34,0.35,0.34,0.34,0.34,0.34,0.34,0.34,0.34
+GaussianNB,1,0.33,0.34,0.34,0.33,0.33,0.33,0.33,0.58,0.59
+MultinomialNB,2,0.25,0.24,0.24,0.25,0.25,0.23,0.23,0.5,0.5
+BernoulliNB,2,0.24,0.24,0.25,0.25,0.25,0.24,0.24,0.24,0.49
+Decision Tree,5,0.4,0.42,0.43,0.4,0.4,0.4,0.41,0.61,0.61
+Random Forest,4,0.49,0.49,0.49,0.49,0.49,0.49,0.5,0.76,0.76
+K-Nearest Neighbors,2,0.32,0.33,0.33,0.32,0.32,0.31,0.31,0.56,0.56
+Ada Boosting,
+Gradient Boosting,3,0.23,0.24,0.24,0.25,0.25,0.23,0.24,0.5,0.52
+HistGradientBoostingClassifier,2,0.43,0.45,0.45,0.43,0.43,0.43,0.44,0.46,0.46
+eXtreme Gradient Boosting,3,0.56,0.57,0.57,0.56,0.56,0.56,0.57,0.79,0.8

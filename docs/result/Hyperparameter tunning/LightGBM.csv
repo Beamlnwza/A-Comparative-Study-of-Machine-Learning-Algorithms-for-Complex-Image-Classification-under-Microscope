@@ -1,0 +1,2 @@
+Algorithm,Number of Parameters,subsample_for_bin,subsample,reg_lambda,reg_alpha,num_leaves,n_estimators,min_child_samples,learning_rate,is_unbalance,colsample_bytree,boosting_type
+LightGBM,11,280000,0.6,0.5,0.5,58,67,20,0.1,True,1.0,gbdt

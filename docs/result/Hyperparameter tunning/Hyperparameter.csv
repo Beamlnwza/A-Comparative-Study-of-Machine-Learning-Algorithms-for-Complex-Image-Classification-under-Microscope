@@ -1,0 +1,14 @@
+Algorithm,Number of Parameters,C,Gamma,Degree,coef0,var_smoothing,alpha,fit_prior,criterion,max_feature,max_depth,min_samples_split,min_samples_leaf,n_estimators,n_neighbors,metric,learning_rate
+"SVM, Linear",1,0.01,,,,,,,,,,,,,,,
+"SVM, RBF",2,0.01,0.1,,,,,,,,,,,,,,
+"SVM, Polynomial ",3,,0.01,2,-100,,,,,,,,,,,,
+GaussianNB,1,,,,,0.0023,,,,,,,,,,,
+MultinomialNB,2,,,,,,1000,true,,,,,,,,,
+BernoulliNB,2,,,,,,10,true,,,,,,,,,
+Decision Tree,5,,,,,,,,gini,sqrt,13,3,5,,,,
+Random Forest,4,,,,,,,,entropy,auto,8,,,500,,,
+K-Nearest Neighbors,2,,,,,,,,,,,,,,4,manhattan,
+Ada Boosting,2,,,,,,,,,,,,,94,,,0.5
+Gradient Boosting,3,,,,,,,,,,6,,,400,,,0.01
+Hist Gradient Boosting,2,,,,,,,,,,2,,,,,,0.01
+eXtreme Gradient Boosting,3,,,,,,,,,,4,,,300,,,0.2
